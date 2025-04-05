@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/widgets/ChatsWidget.dart';
 
+import '../widgets/StatusWidget.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -158,7 +160,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   Container(color: Colors.black),
                   ChatsWidget(),
-                  Container(color: Colors.black),
+                  StatusWidget(),
                   Container(color: Colors.black),
                 ],
               ),
