@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/widgets/CallsWidget.dart';
 import 'package:whatsapp_clone/widgets/ChatsWidget.dart';
 
 import '../widgets/StatusWidget.dart';
@@ -161,7 +162,7 @@ class HomePage extends StatelessWidget {
                   Container(color: Colors.black),
                   ChatsWidget(),
                   StatusWidget(),
-                  Container(color: Colors.black),
+                  CallsWidget(),
                 ],
               ),
             ),
