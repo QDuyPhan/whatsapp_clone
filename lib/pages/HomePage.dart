@@ -30,6 +30,11 @@ class HomePage extends StatelessWidget {
                 child: Icon(Icons.search, size: 28, color: Colors.white),
               ),
               PopupMenuButton(
+                onSelected: (value) {
+                  if(value == 5) {
+                    Navigator.pushNamed(context, "settingsPage");
+                  }
+                },
                 elevation: 10,
                 color: Colors.white,
                 padding: EdgeInsets.symmetric(vertical: 20),

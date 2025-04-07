@@ -23,6 +23,7 @@ class ChatsWidget extends StatelessWidget {
                           "assets/images/profile$i.jpg",
                           height: 65,
                           width: 65,
+                          fit: BoxFit.cover,
                         ),
                       ),
                       Padding(

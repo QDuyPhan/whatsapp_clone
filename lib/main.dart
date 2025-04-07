@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/pages/HomePage.dart';
+import 'package:whatsapp_clone/pages/SettingsPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,7 +18,10 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.black.withOpacity(0),
         ),
       ),
-      routes: {"/": (context) => HomePage()},
+      routes: {
+        "/": (context) => HomePage(),
+        "settingsPage": (context) => SettingsPage(),
+      },
     );
   }
 }
